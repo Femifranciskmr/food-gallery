@@ -233,15 +233,20 @@ margin-top: -230px;
     box-shadow: 0 0 10px rgba(0, 0,0, 0.3);
 }
 
-.menu-img img{
-    width: 300px;
-    height: 245px;
+.menu .menu-box .menu-card  img{
+    width: 100%;
+    height: 155px;
     margin: 0 auto;
     overflow: hidden;
 }
+.menu .menu-box .menu-card .menu-info h2,p,h3{
+    text-align: center;
+}
+.menu .menu-box .menu-card .menu-icon i{
+ margin-left: 10%;
+}
 
-
-.menu-img img{
+.menu .menu-box .menu-img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
